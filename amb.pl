@@ -53,7 +53,6 @@ while ($ARGV = shift @ARGV) {
 	local $SIG{__WARN__} = 'my_warn';
 	$aref = Locale::PO->load_file_asarray($ARGV);
 }
-	print "Comhad PO $ARGV á sheiceáil...\n"
 	foreach my $msg (@$aref) {
 		my $id = decode("utf8", $msg->msgid());
 		my $str = decode("utf8", $msg->msgstr());
