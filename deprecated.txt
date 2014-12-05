@@ -1,0 +1,800 @@
+(C)		(C)			©		.		 \([Cc]\)
+(R)		(R)			®		.		 \([Rr]\)
+tm		tm			™		[^a-z]tm[^a-z]	[^a-z]tm[^a-z]
++/-		+/-			±		.		\+.-
+x		x			×		.		 [0-9\s][x][0-9\s]
+1/2		1/2			½		1/2		1/2
+1/4		1/4			¼		1/4		1/4
+3/4		3/4			¾		3/4		3/4
+3D		3D			3T		3D		3D
+->		->			→		->		->
+#  FARF/FRTF
+abort		stop			tobscoir	abort		stop
+abort		toghluais		tobscoir	abort		th?oghlu
+abort		scoir			tobscoir	abort		[^b]scoir
+action		aicsean			gníomh		action		aics(ea|i)n
+action		beart			gníomh		action		bh?eart
+action		feidhm			gníomh		action		fh?eidhm
+#  FRTF (FARF=cuir i ngníomh)
+activate	gníomhaigh		gníomhachtaigh	activa		gh?níomha[^c]
+activate	cuir_i_ngníomh		gníomhachtaigh	activa		i.ngníomh
+activate	cuir_ar_obair		gníomhachtaigh	activa		ar.obair
+activate	tosaigh			gníomhachtaigh	activa		th?[oú]s
+adapter		adaptar			cuibheoir	adapt.r		adapt
+adapter		athchóiritheoir		cuibheoir	adapt.r		adapt
+administration	bainistiú		riarachán	administ	bh?ainist
+# Brian O Broin, FRTF  (FARF has clár gnó)
+agenda	clár_gnó			clár_oibre		agenda		r_oibre
+aka		.i.			ar_a_dtugtar_freisin	aka	\.i\.
+# FRTF
+alert		airdeall		foláireamh	alert		aird(ea|i)ll
+alert		fainic		foláireamh	alert		fainic
+alert		rabhadh		foláireamh	alert		rabhai?dh
+# FRTF
+alias		leasainm		ailias		alias		leasainm
+alias		ainm_bréige		ailias		alias		ainm
+all			gach_rud		uile		all			gach.rud
+# FRTF has dáil and leithdháil
+allocate	riar			dáil		allocat		riar
+annotation	nóta			anótáil		annotat		nóta
+# FRTF
+append		cuir_le			iarcheangail	append		ch?ui?r.*le
+#  FARF/FRTF
+application	feidhmoideas		feidhmchlár	applic		fh?eidhmoid
+#  FRTF  (FARF=feidhmigh)
+apply		déan			cuir_i_bhfeidhm	appl(y|ie)	(dh?éan|rinne)
+apply		feidhmigh		cuir_i_bhfeidhm	appl(y|ie)	fh?eidhm[ía-z]
+# FARF/FRTF
+area		achar			limistéar	area		[^n]achai?r
+# Brian Ó Broin
+arrange		réitigh			leag_amach	arrang		[^a-z]réit
+article		airteagal		alt		articl		airteag
+asset		sochar			sócmhainn	asset		sh?ocha
+# FARF/FRTF (FRTF has c~ also)
+attachment	ceangaltán		iatán		attach		ch?eangaltá
+# FARF/FRTF
+attribute	airí			tréith/aitreabúid	attribute	airí
+# fíordh. is "authentication" - this slipped in FF a couple of times
+authenticity	fíordheimhniú		fír(inn)e	authenticit	íordhei
+# Firefox nav., FRTF04
+back		ar_ais			siar		back		ar.ais
+# FARF/FRTF only have it as an adjective (deiridh/cúil)
+backend		cúl(ra)			inneall		back.?end	ch?úi?l
+# FARF both, FRTF bandaleithead
+bandwidth	bandaraon		bandaleithead	band.?width	bh?andarao
+# keep "clog" for clock, esp. stuff like "clog an chórais" system clock vs bell
+bell		clog			cloigín		bell		ch?loi?g[^í]
+# FRTF
+blur		doiléirigh		geamhaigh	blur		dh?oiléir
+blur		smálaigh		geamhaigh	blur		smál
+# chess/checkers board, bulletin/disc. board, all "clár"
+board		bord		clár	board		bh?oi?rd
+# FRTF bútáil, FARF tosaigh
+boot		(ath)bhútáil		(a)tosaigh	boot		bh?útá
+# FRTF, MSG
+border		ciumhais		imlíne		border		ch?iumha
+border		críoch			imlíne		border		ch?río?ch
+border		imeall			imlíne		border		im(ea|i)ll
+border		teorainn		imlíne		border		th?eorai?nn
+# FRTF/FARF
+branch		craobh			brainse		branch		ch?raoi?b
+break		scoilt			bris(eadh)	break		scoilt
+break		bearna			bris(eadh)	break		bh?earna
+# FARF/FRTF
+browser		(líon)léitheoir		brabhsálaí	browser		léitheo
+browser		breathnóir		brabhsálaí	browser		bh?reathnó
+browser		dearcóir		brabhsálaí	browser		dh?earcó
+# FARF/FRTF
+bug		éalang			fabht		bug		éalai?ng
+bug		míol			fabht		bug		mh?íol
+# OD has both insuigh and ionsuigh with same def... FRTF spells it ionsuite
+built-in	inmheánach		insuite		built.?in	inmheána
+built-in	inlonnaithe		insuite		built.?in	inlonn
+# FRTF
+bullet		piléar			urchar		bullet		ph?ilé[ai]r
+# FARF/FRTF
+cache		ceallóg			taisce		cache		ch?ealló
+cache		folachán		taisce		cache		fh?olachá
+cache		gnáthóg			taisce		cache		gh?náthó
+# FARF=glaoch, FRTF both but prefers "glao"
+call		glaoch			glao		call[^i]	gh?laoch
+cannot		níorbh_fhéidir	ní_féidir	can.?not	h.fhéid
+# FARF/FRTF
+capacity	lucht			toilleadh	capacity	lucht
+capacity	riocht			toilleadh	capacity	riocht
+capacity	toirt			toilleadh	capacity	th?oirt
+# MSG
+capitalization	caipitliú		ceannlitriú	capitali[sz]	ch?aipit
+case		tuiseal			cás		case		th?uis[ei]
+CD			CD				dlúthdhiosca	[^a-z]CD[^a-z]	[^a-z]CD[^a-z]
+center		láraithe		lárnach		cente?r[^e]	lára
+certificate_authority	údarás_teastais		údarás_deimhniúcháin	certificate.auth	rás_teast
+certificate_authority	údarás_na_dteastas		údarás_deimhniúcháin	certificate.auth	rás_na_dteast
+CA	údarás_teastais		údarás_deimhniúcháin	[^a-z]CA[^a-z]	rás_teast
+CA	údarás_na_dteastas		údarás_deimhniúcháin	[^a-z]CA[^a-z]	rás_na_dteast
+choose		pioc			roghnaigh	choose		ph?ioc
+chunk		canta			smután		chunk		ch?anta
+# FARF/FRTF
+clear		bánaigh			glan		clear		bh?án
+# both in both, cliceáil seems preferred
+click		brúigh			cliceáil	click		bh?rú
+click		gliogáil		cliceáil	click		gh?liog
+click		cligeáil		cliceáil	click		ch?lig
+click		cniog			cliceáil	click		ch?niog
+# FRTF has leacaigh actually
+collapse	leacaigh		laghdaigh	collaps		leac
+# Eng. "collate" is ambiguous - compare vs. sort, latter being the one we want
+collate		cóimheas		comhordaigh	collat		ch?óimheas
+# FRTF has both
+collater	idirshuiteoir		comhordaitheoir	collat.r	idirshuit
+# FARF/FRTF (~ tráchta)
+comment		léirmheas/léiriú	nóta		comment		léir
+# no FARF/FRTF
+completion	iomlánú			comhlánú	completi		iomlán[aú]
+completion	(comh)líonadh		comhlánú	completi		líon
+completion	slánú			comhlánú	completi		sh?lán[aú]
+completion	críochnú		comhlánú	completi		ríochn
+# FRTF cum=compose
+compose(r)	ceap(adóir)		cum(adóir)	compos		ch?eap
+# FRTF (FARF has dlúthaigh)
+compress	(comh)dlúthaigh		comhbhrúigh	compress	dh?lúi?t
+compress	(comh)fáisc		comhbhrúigh	compress	fh?áisc
+# FARF/FRTF; see noun below
+#connect		ceangail		naisc		connect		ch?eanga?i?l
+connect		cónaisc			ceangail		connect		ch?ónai?sc
+# connection caught below; connector->nascóir OK 
+connect		nasc			ceangail		connect[^io]		nai?sc
+# SÓC r-phost 30-11-2007
+connection	nasc			ceangal		connecti	nai?sc
+# FRTF
+console		clár			consól		console		ch?lái?r
+console		eallóg			consól		console		eallói?g
+console		bracóg			consól		console		bh?racói?g
+contact		teagmháil		teagmhálaí	contact	th?eagmháil
+contacts		teagmhálacha		teagmhálaithe	contacts	th?eagmhálach
+contact_list	liosta_teagmhála	liosta_teagmhálacha	contact.?list	gmhála[^c]
+# FRTF
+controller	ceannasaí		rialaitheoir	controller	ch?eannasa
+controller	reachtaire		rialaitheoir	controller	reachtair
+controller	smachtaitheoir		rialaitheoir	controller	smachtaitheo
+controller	stiúrthóir		rialaitheoir	controller	stiúrth
+# FARF/FRTF
+convert		bog			tiontaigh	conver[ts]	bh?og
+convert		aistrigh		tiontaigh	conver[ts]	aistr
+convert		athraigh		tiontaigh	conver[ts]	athr
+convert		athchóirigh		tiontaigh	conver[ts]	athchóir
+convert		oiriúnaigh		tiontaigh	conver[ts]	oiriún
+convert		iompaigh		tiontaigh	conver[ts]	iomp
+# FARF/FRTF
+cookie		cuach			fianán		cookie		ch?uai?ch
+corrupt		lofa			truaillithe	corrupt		lofa
+could_not	ní_féidir		níorbh_fhéidir	could.not	ní.féidir
+# FRTF04, plus I don't like "láimhseálaí cliste" ...
+crash		clis		tuairt(eáil)		crash		ch?lis
+# FRTF
+cryptography	criptiúchán		cripteagrafaíocht	cryptograph	ch?ripti
+cryptography	criptiú		cripteagrafaíocht	cryptograph	ch?ripti
+# Séamus like present tense for these; see unable
+# could_not	níorbh_fhéidir		ní_féidir	could.?n.t	níorbh.fhéidir
+# FARF/FRTF
+current		láithreach		reatha		(current|working) láithr
+# FARF/FRTF
+cursor		cuil			cúrsóir		cursor		ch?uil
+cursor		táscaire		cúrsóir		cursor		th?áscair
+# FARF/FRTF
+custom		do_cheann_féin		saincheaptha	custom		féin
+custom		leithleach		saincheaptha	custom		leithl
+custom		sainchóirithe		saincheaptha	custom		sh?ainchóir
+cycle		timthriall		ciogal		cycl		imthrial
+dash		fleasc			dais		dash		fh?le[ia]sc
+# FRTF/FARF
+declaration	dearbhú			fógra		declaration	dh?earbh
+declaration	fógairt			fógra		declaration	fh?ógai?rt
+declaration	forógra			fógra		declaration	fh?orógra
+declaration	maíomh			fógra		declaration	mh?aíomh
+decoration	maisíocht			maisiúchán		decoration	mh?aisíocht
+# FRTF  (FARF has various loic- things)
+default		loicthe			réamhshocrú	default		loic
+default		mainneachtain		réamhshocrú	default		mh?ainneacht
+# FARF/FRTF
+delete		bain			scrios		delete		bh?ain
+delete		[cd]ealaigh		scrios		delete		[cd]h?eal[aú]
+delete		díothaigh		scrios		delete		dh?íoth
+# FARF/FRTF
+delimiter	teorantóir		teormharcóir	delimiter	th?eorantó
+demo		léiriú			taispeántas,_clár_taispeána	demo	léiri
+# FARF has ceann scríbe but BÓB prefers sprioc
+destination		ceann_scríbe	sprioc	destination		scríbe
+# no FRTF or FARF
+destroy		scrios			léirscrios	destroy		[^r]scrios
+details		sonraí			mionsonraí	detail		[^n]sonra
+# FARF/FRTF
+device		áis			gléas		device		áis
+device		deis			gléas		device		dh?eis
+device		feiste			gléas		device		fh?eist
+device		gaireas			gléas		device		gh?air(ea|i)s
+device		sás			gléas		device		sh?ás
+# FRTF (FARF = bosca caidrimh)
+dialog		bosca_comhrá		dialóg		dialog		osca.ch?omhr
+dialog		bosca_caidrimh		dialóg		dialog		osca.ch?aidr
+dialog		idirphlé    		dialóg		dialog		idirphl
+dialog		comhrá			dialóg		dialog		ch?omhrá
+# FARF/FRTF
+directory	fillteán		comhadlann,_eolaire	director	fh?illteá
+# M. Gunn advice
+discard		cuileáil	ná_sábháil		discard		ch?uileá
+discard		caith_i_X	ná_sábháil		discard		ch?aith
+# FARF/FRTF have doic- actually
+document	doiciméad		cáipéis		document[^a]	dh?oicim
+# FARF/FRTF
+domain		fearannas		fearann		domain		fh?earanna
+done		réidh			críochnaithe	done		réidh
+done		déanta			críochnaithe	done		dh?éanta
+# FRTF both
+double-click	cliceáil_faoi_dhó	déchliceáil	double.?click	faoi.dh?ó
+# *lódáil handled under "load" below
+download	síos-luchtaigh		íosluchtaigh	download	sh?íos-?lucht
+download	thíos-luchtaigh		íosluchtaigh	download	thíos-?lucht
+download	íoschóipeáil		íosluchtaigh	download	íoschóip
+# definitely best choice even for concrete drawing
+# reserve "dearadh" for "design"
+drawing		tarraing		líníocht	drawing		th?arraing
+drawing		dearadh			líníocht	drawing		dh?earadh
+drawing		líniú			líníocht	drawing		líniú
+# FARF has both, FRTF nm1 only
+drive		(diosc)tiomáint		tiomántán	drive		th?iomáint
+# FRTF has caoch*, FARF dumaí
+dummy		dumaí			caoch(adán)	dummy		dh?um
+dummy		bréag-			caoch(adán)	dummy		bh?ré.g
+# FARF/FRTF
+dynamic		beo			dinimiciúil	dynamic		bh?eo
+edge		imeall		ciumhais		edge	im(i|ea)ll
+edge		taobh		ciumhais		edge	th?aoi?bh
+# FARF/FRTF
+edit		eagraigh		(cuir_in_)eagar	edit		[^a-z]eagr[^á]
+# FRTF (but also "éifeacht" as in "take effect")
+effect		imeartas		maisíocht	effect		imeart
+effect		iarmhairt		maisíocht	effect		iarmhairt
+effect		maisiúchán		maisíocht	effect		mh?aisiúchái?n
+elapsed		ídithe			imithe		elaps		ídith
+# FARF/FRTF  (FRTF has seoladh r~ also)
+email_address	ríomhsheoladh		seoladh ríomhphoist	mail	ríomhsheol
+enable		ceadaigh		cumasaigh	enabl		ch?eada
+enclosure	ceangaltán		iatán		enclosu		ch?eangaltá
+# FARF/FRTF
+encoding	códáil/códú		ionchódú	encod		[^n]ch?ód(ái?l|ú)
+# FRTF
+encryption	incriptiúchán		criptiú		encrypt		incrip
+encryption	rúnscríobh		criptiú		encrypt		rúnscr
+# FRTF
+enter		tabhair_uait		iontráil	enter		bhair.uait
+# FARF (FRTF críoch comhaid)
+EOF		EOF			comhadchríoch	eof		eof
+# FRTF léirscrios
+erase		scrios			léirscrios,_glan	eras(e|ing)	[^r]scrios
+erase		bánaigh			glan		eras(e|ing)	bh?án
+error		botún			earráid		error		bh?otú
+# FARF/FRTF for "expression eval"
+evaluation	meas			luacháil	evaluat		mh?eas
+# FRTF
+event		eachtra			teagmhas,_imeacht	event		eachtra
+event		tarlú  			teagmhas,_imeacht	event		th?arlú
+# FARF/FRTF (pp in FARF)
+exit		éirigh_as		scoir		exit		[^a-z]éir.*[^a-z]as[^a-z]
+exit		fág			scoir		exit		fh?ág
+export		onnmhairigh		easpórtáil	export		onnmha
+# FARF (latter is for file names), FRTF has iarmhír
+extension	síneadh			eisínteacht,_iarmhír	extension [^a-z]sh?íneadh
+extension	sínteán			eisínteacht,_iarmhír	extension [^a-z]sh?ínteá
+# focal.ie
+false		falsa			bréagach	false		fh?alsa
+# FARF/FRTF
+fatal		millteach		marfach		fatal		mh?illt
+fatal		cinniúnach		marfach		fatal		ch?inniún
+# FARF/FRTF
+feature		airí			gné		feature		airí
+feature		éagasc			gné		feature		éagasc
+feature		tréith			gné		feature		th?réith
+feature		sainghné			gné		feature		ainghné
+# for "illustrations", geometric figures can be "fíoracha"; no FARF or FRTF
+figure		fíor			léaráid		[^n]figure		fh?íor
+# FRTF
+find		cuardaigh		aimsigh		f(i|ou)nd	ch?uar[dt]
+# FARF
+finish		críoch			críochnaigh	finish		ríoch[^n]
+# FRTF
+firewall	balla_slándála		balla_dóiteáin	firewall	allaí?.slá
+# OOo, "ainm agus sloinne"
+first_name	ainm_baiste		ainm		first.name	bh?aiste
+# both in FRTF
+flag		brat			bratach		flag		bh?rai?t[^a]
+flag		meirge			bratach		flag		mh?eirge
+floating	foluaineach		snámhphointe,_inathraitheach	floating	fh?oluain
+floating	comhlúthach		snámhphointe,_inathraitheach	floating	ch?omhlúth
+floating	ar_snámh		snámhphointe,_inathraitheach	floating	snámh[^p]
+floating	soghluaiste		snámhphointe,_inathraitheach	floating	sh?oghlua
+# FARF has flapach, FRTF bog
+floppy		bog			flapach		floppy		bh?oi?g
+# FARF/FRTF but we're using comhadlann if English really means directory
+# folder		fillteán		comhadlann	folder		fh?illteá
+# FARF/FRTF; since I went with cló vs. clófhoireann, need to do this
+font_family	aicme_cló		fine_cló	font.?family	aicme
+font_family	clann_cló		fine_cló	font.?family	ch?lai?nn
+# both in both
+font		clófhoireann		cló		fou?nt		ch?lófho
+# FARF/FRTF
+format		leagan_amach		formáid		format		leagai?n.*amach
+forward		anonn			ar_aghaidh	forward		anonn
+forward		chun_(cinn/tosaigh)	ar_aghaidh	forward		chun.[ct]
+front_end	clár_tosaigh		comhéadan	front.?end	r.tosaigh
+# FARF/FRTF
+full_screen	scáileán_iomlán		lánscáileán	full.?screen	n.iomlá
+# usually means "general" and not "representative of a genus"
+generic		aicmeach		ginearálta	generic		aicm
+generic		cineálach		ginearálta	generic		ch?ineál
+generic		géineasach		ginearálta	generic		gh?éine
+# FRTF
+gesture		geáitse			gotha		gesture		gh?eáits
+gesture		comhartha		gotha		gesture		ch?omharth
+gesture		geistear		gotha		gesture		gh?eist
+# OOo, "ainm agus sloinne"
+given_name	ainm_baiste		ainm		given.name	bh?aiste
+# SÓC and I agree on this; FARF/FRTF domhanda of course
+global		cuimsitheach		comhchoiteann,_domhanda	global		ch?uimsith
+global		uilechoiteann		comhchoiteann,_domhanda	global		uilechoit
+go		gabh			téigh		[^a-z]go[^a-z]	gh?abh
+# FRTF - green in RGB sense is uaine; muirghlas, etc. are ok though
+green	glas		uaine			green		[^a-z]gh?lai?s
+# FRTF
+handler		ionramhálaí		láimhseálaí	handle		ionramh
+# FARF bileog, FRTF dáileán
+handout		bileog			dáileán		handout		bh?ileo
+hidden		i_bhfolach		folaithe	hidden		bhfolach
+# FARF/FRTF
+#hide		cuir_i_bhfolach		folaigh		hidd?e		i.bhfolach
+hide		ceil			folaigh		hidd?e		ch?eil
+hide		cealaigh		folaigh		hidd?e		ch?eal[^l]
+# FARF/FRTF
+hilight		soilsigh		aibhsigh	hi(gh)?light	sh?oils
+horizontal	cothrom			cothrománach	horizont	ch?othrom[^á]
+# FARF/FRTF (FRTF has óstach too)
+host		ósta			óstríomhaire	host		[^n]ósta[^i]
+# ainligh is given in focal.ie as ornith. and also computing
+hover		foluain			ainligh		hover		fh?olua
+hunk		canta			smután		hunk		ch?anta
+# FRTF gives both, FARF deilbhín only
+icon		íocón			deilbhín	icon		íocó
+icon		dealbh			deilbhín	icon		dh?ealbh
+icon		samhail			deilbhín	icon		sh?amh
+ID			ID				aitheantas	[^a-z]ID[^a-z]	[^a-z]ID[^a-z]
+identity	céannacht		aitheantas	identit		ch?éannac
+identity	(comh)ionannas	aitheantas	identit		ionanna
+# FRTF
+idle		marbh			díomhaoin	idle		mh?arbh
+idle		falsa			díomhaoin	idle		fh?alsa
+idle		fastaímeach		díomhaoin	idle		fh?astaím
+# FRTF  (FARF has "neamhairdigh")
+# ignore		lig_thart		déan_neamhaird_de	ignor	lig.*thar
+# ignore		déan_neamhshuim		déan_neamhaird_de	ignor	neamhshuim
+# ignore		neamhairdigh		déan_neamhaird_de	ignor	neamhaird[ía-z]
+import		allmhairigh		iompórtáil	import		allmha
+# FRTF both, FARF prefers bonn-
+infrastructure	infreastruchtúr		bonneagar	infrastr	infrea
+ing		ag			á,_bhíothas_ag	.		"[Aa]g[^a-záéíóúÁÉÍÓÚ]
+initials	inisealacha		túslitreacha	initial		iniseal
+# FARF/FRTF
+install		feistigh		suiteáil	install		fh?eist
+install		insealbhaigh		suiteáil	install		insh?ealbh
+# FARF/FRTF
+interface	idiréadan		comhéadan	interfac	idiréad
+# FRTF
+join		snaidhm			comhcheangail	join		sh?naidhm
+join		cuingigh		comhcheangail	join		ch?uing
+journal		iris			dialann			journal		iris
+journal		cín_lae			dialann			journal		ch?ín
+# SÓC preference, no FRTF/FARF
+keep		caomhnaigh		coimeád		keep		ch?aomhn
+# FARF/FRTF
+keyboard	luibheanchlár		méarchlár	keyboard	luibhean
+# eochairchl so as to avoid "eochaircheap"
+keyboard	eochairchlár		méarchlár	keyboard	eochairchl
+key_mapping	mapa_eochrach		eochairmhapáil	key.?map	[^r]mh?ap
+keyword		eochairfhocal	lorgfhocal		key.?word		eochairf
+#    case-insensitive => next check doesn't work...
+# LaTeX		Latex			LaTeX		latex		Late[^X]
+launch		lainseáil		tosaigh		launch		lains
+# SÓC preference, no FRTF/FARF
+keep		caomhnaigh		coimeád		keep		ch?aomhn
+# FARF/FRTF
+keyboard	luibheanchlár		méarchlár	keyboard	luibhean
+keyboard	eochairchlár		méarchlár	keyboard	eochairch
+key_mapping	mapa_eochrach		eochairmhapáil	key.?map	[^r]mh?ap
+keyword		eochairfhocal	lorgfhocal		key.?word		eochairf
+#    case-insensitive => next check doesn't work...
+# LaTeX		Latex			LaTeX		latex		Late[^X]
+launch		lainseáil		tosaigh		launch		lains
+# FARF/FRTF
+line_number	uimhir_líne		líne-uimhir	line.?numb	[^-]uimh
+# SÓC r-phost 30-11-2007
+link		ceangal			nasc		link	ch?eangal
+# FARF/FRTF have lódáil actually; FARF has íoschóipeáil, etc too
+load		lódáil			luchtaigh	load		lód
+load		cóipeáil_X		luchtaigh	load		ch?óip
+# FARF/FRTF
+local		áitiúil			logánta		local		áitiúi?l
+local		ceantrach		logánta		local		ch?eant
+locale		logánú			logchaighdeán	locale		logá
+# FARF/FRTF
+location	áit			suíomh		location	[^a-z]áit[^a-df-z]
+location	láthair			suíomh		location	lái?th
+location	ionad			suíomh		location	[^a-z]ionad
+lock		glasáil			cuir_faoi_ghlas		lock	gh?lasá
+# FARF/FRTF
+log		log			logáil		log[^a]		[^a-z]log[^ác]
+log_in		logáil_ann		logáil_isteach	log[^a]		logá(il|la).ann
+log_out		logáil_as		logáil_amach	log[^a]		logá(il|la).as
+lowercase	cás beag			cás íochtair	lower.*case	ch?ás.beag
+lowercase	cás íochtarach		cás íochtair	lower.*case	ch?ás.íochtar
+lowercase	litir bheag			litir chás íochtair	lower.*case	liti?r.*bh?eag
+mailing_list	liosta_seachadta	liosta_ríomhphoist	mailing.list	liosta.seachad
+# no FARF/FRTF
+malformed	mícheart		míchumtha	malform		mh?ícheart
+manage		riar			bainistigh		manage	riar
+management	bainistíocht		bainisteoireacht	manag	bh?ainistíoch
+# old KDE had "ag an ~"
+manual		ag_an_úsáideoir		de_láimh,_lámhleabhar	manual	úsáide
+manual		láimhe			de_láimh,_lámhleabhar	manual	láimhe
+mark		comharthaigh	marcáil	mark	ch?omharth
+mark		fógair	marcáil	mark	fh?óg
+marker		comhartha		marcálaí		marker		ch?omhartha
+marker		marcóir		marcálaí		marker		mh?arcói?r
+# Mozilla-L
+match		meaitseáil		comhoiriúnaigh_(do)	match	mh?eaits
+merge		measc			cumaisc		[^a-z]merge		mh?easc
+mirror		scáthán			suíomh scáthánaithe		mirror		scáthái?n[^a]
+mobile		móibíleach		soghluaiste		mobile		mh?óibíl
+mobile		móbaidhl		soghluaiste		mobile		mh?óbaidhl
+# FARF/FRTF
+mode		modh			mód		mode[^r]	mh?odh
+# FARF/FRTF have "déanamh" for printer model, but that's "make" for me
+model		déanamh			samhail		model		dh?éanamh
+modeler		samhlóir		samhaltóir	modell?er	sh?amhló
+modeler		múnlóir		samhaltóir	modell?er	mh?únló
+# FRTF (FARF = bunathraigh)
+modify		modhnaigh		mionathraigh	modif		mh?odhn
+#modify		athraigh		mionathraigh	modif		[^n]athra
+modify		bunathraigh		mionathraigh	modif		bh?unathra
+# FRTF has verb "gléas" but I think this means physically, like on a table
+mount		gléas			feistigh	[^a]mount		gh?léas
+# both in both, prefer one for consistency
+mouse		luchóg			luch		mouse		luchó
+mute		maolaigh		balbhaigh	mute		mh?aol
+# FRTF
+navigation	loingseoireacht		nascleanúint	navigat[ei]	loings
+navigator	loingseoir		nascleantóir	navigato	loings
+# FRTF
+network		eangach			líon(ra)	net		[^a-z]eanga
+network		gréasán			líon(ra)	net		gh?réasá
+network		líontán			líon(ra)	net		líontán
+network		mogalra			líon(ra)	net		mh?ogalra
+next		anonn			ar_aghaidh	next		anonn
+# FRTF
+newsgroup	nuachtghrúpa		grúpa_nuachta	news.?group	nuachtghr
+none		ar_bith			neamhní		none		ar.bith
+none		faic/dada/tada		neamhní		none		(faic|[dt]ada)
+noon		um_nóin			meán_lae	[^r]noon	nóin
+# single word should use the adjective
+normal		gnáth			gnách		normal		gh?náth[^a-z]
+# no FRTF
+nothing		faic/dada/tada		neamhní		none		(faic|[dt]ada)
+# fógraíocht is "advertising"
+notification	fógraíocht		fógairt		notif		fh?ógraío
+object		oibiacht		réad		object		oibiach
+# FRTF
+oblique		claonta			fiar		oblique		ch?laon
+# no FRTF but in OLT
+obsolete	as/gan_feidhm		i_léig		obsole		fh?eidhm
+obsolete	seanchaite		i_léig		obsole		sh?eanchaite
+off		múchta			as		"off		mh?úch
+# FARF (airgeadas) but no FRTF
+offset		seach-chur		fritháireamh	offset		each-chu
+# SÓC agus mise
+OK		Tá_go_Maith		OK		[^a-z]OK[^a-z]	go.maith
+OK		ceart_go_leor		OK		[^a-z]OK[^a-z]	ceart.*leor
+OK		CGL		OK		[^a-z]OK[^a-z]	CGL
+# FRTF
+operand		argóint			oibreann	operand		argóint
+operating_system	córas_oibrithe	córas_oibriúcháin	system	rai?s.oibrit
+# FARF/FRTF "easpa cuimhne"
+out_of_memory	úsáidte			ídithe		memory		úsáidte
+# FRTF
+overwrite	scríobh_ar		forscríobh	overwrit	[^r]scrío
+# FRTF
+parameter	argóint			paraiméadar	parameter	argói?n
+# FRTF (but see evertype 7-bit stnd, idiraisnéis)
+parenthesis	idiraisnéis		lúibín		parenth		idirais
+# FRTF
+partition	rann			deighilt	partition	rann
+# FARF/FRTF
+passive		fulangach		éighníomhach	passive		fh?ulai?ng
+passive		céasta			éighníomhach	passive		ch?éasta
+passive		síochánta		éighníomhach	passive		sh?íoch
+# both in FRTF
+passphrase	pasfhrása		frása_faire	passphrase	ph?asfhr
+passphrase	focal_faire/pasfhocal	frása_faire	passphrase	fh?ocai?l
+# both in both
+password	pasfhocal		focal_faire	pass(code|word)	ph?asfhoc
+# both have "cosán" actually
+path		cosán			conair		path		ch?osái?n
+# FRTF
+peer		piara			comhghleacaí	peer		ph?iar
+# FRTF
+performance	oibriú			feidhmíocht	performance	oibri
+pick		pioc			roghnaigh	pick		ph?ioc
+# FRTF
+pixel		picseal			picteilín	pixel		ph?ics
+# media player only - general word is in amb.txt
+player		taispeántóir	seinnteoir	player		aispeántó
+# Firefox
+pop-up		fuinneog_anuas		preabfhuinneog	pop		anuas
+pop-up		fuinneog_aníos		preabfhuinneog	pop		aníos
+# port should be "port" (scsi, etc.) or "leagan" (to another OS, etc.)
+port		aistriúchán		leagan		port		aistriúch
+# iniompartha is "portable" as in small and carry-able.  
+# inaistrithe is better for portable between systems, platforms
+portable	iniompartha		inaistrithe	portab		iniomp
+# FRTF04 has both, seems to prefer i~ (since suíomh is "site")
+position	suíomh			ionad		[^m]position[^i]	sh?uío?mh
+# usually math sense - deimhneach
+positive	dearfach		deimhneach		positiv		dh?earf
+precedent	réamhshampla		fasach		precedent	réamhshamp
+# FRTF
+precision	cruinneas		beachtas	precis		ch?ruinn
+# make file prereqs, e.g.; FRTF
+prerequisite	réamhchoinníoll		réamhriachtanas	requisit	réamhch
+# FRTF/MTR
+presentation	léiriú(chán)		láithreoireacht	[^e]presentat	léiriú
+presentation	tíolacadh		láithreoireacht	[^e]presentat	th?íol
+presentation	toirbhirt		láithreoireacht	[^e]presentat	th?oirbh
+# FRTF
+preset		réamhchóiriú		réamhshocrú	pre.?set	réamhch
+previous	siar      		roimhe_seo	previous	siar
+# FARF/FRTF
+property	tréith			airí(onna)	propert		th?réit
+province	proibhinse		cúige		province	ph?roibh
+# FARF/FRTF
+policy		beartas			polasaí		polic		bh?earta
+policy		dúnghaois		polasaí		polic		dh?úngh
+# ionad/suíomh in FRTF
+position	suíomh			ionad		positi		sh?uío?mh
+position	áit			ionad		positi		[^a-z]áit
+# FRTF
+preferences	roghanna		sainroghanna	preferen	[^n]rogha
+preferences	tosaíochtaí		sainroghanna	preferen	th?osaíochtaí
+# FARF/FRTF
+print		clóbhuail		priontáil	print		ch?lóbhu
+# FARF/FRTF
+printer		clódóir			printéir	printer		ch?lód
+printer		clóire			printéir	printer		ch?lóire
+# FRTF
+proxy		ionadaí			seachfhreastalaí	prox	ionada
+quick_search	cuardach_gasta		mearchuardach	quick.search	gasta
+quick_search	cuardach_tapa		mearchuardach	quick.search	tapa
+# FRTF (FARF has "fág")
+quit		éirigh_as		scoir		quit		[^a-z]éir.*[^a-z]as[^a-z]
+quit		fág			scoir		quit		fh?ág
+# FARF/FRTF
+random		fánach			randamach	random		fh?ána
+random		corr			randamach	random		ch?orr
+random		teagmhasach		randamach	random		th?eagmhas
+# FARF/FRTF
+range		réim(se)		raon		[^t]rang		réim
+# meastachán is more like "estimate"?
+rating		meas(tachán)	rátáil		[^e]rating		mh?eas
+rating		grádú			rátáil		rating		ghrád
+read-only	léimh-amháin		inléite_amháin	read.?only	[^a-z]lé[ai]mh.a
+# FRTF, OLT
+real-time	am-beo			fíor-ama	real.?time	am.*bh?eo
+receipt		sonrasc			admháil		receipt		sonrai?sc
+# Thunderbird
+recipient	glacadóir		faighteoir	recipient	gh?lacad
+# FRTF
+recover		athchóirigh		athshlánaigh	recover		athchóir
+# FRTF
+redo		athfheidhmigh		athdhéan	redo		athfheidhm
+redo		déan_arís		athdhéan	redo		arís
+referent	tagraí			tagrán		referent	th?agra
+# FARF/FRTF
+refresh		nuashonraigh		athnuaigh	refresh		nuashon
+refresh		úraigh			athnuaigh	refresh		[^a-z]úra
+# no FARF or FRTF
+regexp		slonn_rialta		slonn_ionadaíochta	reg.*exp	rialta
+# usually process not specific documents; FRTF both
+registration	clárúchán		clárú		registration	lárúch
+# FE94 has cúlú=math, OLT, FRTF, etc. aisch* for "testing" I suppose, but TS
+# now has aisch* for math too
+regression	cúlú			aischéimniú	regress		cúl
+relation	coibhneas		gaol		relation	ch?oibhn
+relation	baint			gaol		relation	bh?aint
+relation	nasc			gaol		relation	nai?sc
+relation	caidreamh		gaol		relation	ch?aidr
+# FARF/FRTF
+remove		scaoil			bain		remove		scaoil
+remove		scuab_as		bain		remove		scuab
+remove		dealaigh		bain		remove		dh?eala
+# Mozilla-L - "cuir in ionad", "cuir in áit", "athraigh" also good
+replace		athsholáthair	ionadaigh	replac		athshol
+replace		athchuir		ionadaigh	replac		athchu
+replace		asáitigh		ionadaigh	replac		asáit
+replace		aischuir		ionadaigh	replac		aischu
+# Mozilla-L, FARF/FRTF
+resize		athmhéadaigh		athraigh_méid	resiz		athmhéad
+# like host names, not visually; FRTF has 'taifigh'
+resolve		taifigh			réitigh		resolv		th?aif
+# FRTF has "cuir ar ais", wrong like with "replace"?
+restore		athshlánaigh		athchóirigh	restor		athshlán
+restore		cuir_ar_ais		athchóirigh	restor		ar.ais
+# FRTF
+retry		triail_arís		atriail		retry		[^a]tria
+retry		iarracht_eile		atriail		retry		iarracht
+# no FARF or FRTF - Séamus used cúlghairm in TB
+revision	leagan		leasú		revis		leagai?n
+revoke		cealaigh	cúlghairm	revo[kc]	ch?eal
+revoke		aisghairm	cúlghairm	revo[kc]	aisghair
+# FRTF
+rewind		athchas,_cúlchas	atochrais	rewind		(th|úl)chas
+# need [^a-z] so as not to match "Charles"!
+RLE		RLE			IFR		RLE[^a-z]		RLE
+root		sárúsáideor			forúsáideoir	root		sh?árús
+rounded		cruinn			cuar		rounded		ch?ruinn
+row		sraith			ró		row		srai?th
+salutation	fáilte			beannacht	salutat		fh?áilt
+# FARF/FRTF
+save		cuir_i_dtaisce		sábháil		sav(ing|e)	th?aisc
+# FARF/FRTF
+schema		scéim			scéimre		schema		scéim[^r]
+scrollbar	barra_scrollaigh	scrollbharra	scroll.?bar	[^l]bh?arra
+section		roinn			rannóg		section		roinn
+section		rannán			rannóg		section		rannái?n
+# FRTF
+sector		teascán			teascóg		sector		th?eascá
+secure		daingean		slán		secure		dh?aing
+select		pioc			roghnaigh	select		ph?ioc
+# FRTF
+sensor		brathadóir		braiteoir	sensor		bh?rathad
+# FARF/FRTF
+server		friothálaí		freastalaí	server		fh?riothál
+server		dáileoir		freastalaí	server		dh?áileoi?r
+# FARF/FRTF cumraíocht
+setup		cumraigh		socrú		setup		ch?umr
+# Keep scáthú  for "shadowing", see OOo
+shading		scáthú			scáthlíniú	shading		scáth[^l]
+# keycap
+shift		iomlaoid		shift		shift		iomlaoid
+# no FRTF or FARF; OLT has "stiall" for paper
+shred		mionghearr		léirscrios	shred		mh?ion
+shred		stiall			léirscrios	shred		stiall
+sign_out		sínigh_amach	logáil_amach	sign.*out	sh?ín.*amach
+sign_in		sínigh_isteach	logáil_isteach	sign.*in	sh?ín.*isteach
+sink		doirteal		slogaide	sink		dh?oirt
+size		toirt			méid		size		th?oirt
+size		tomhas			méid		size		th?omhai?s
+software	bogábhar		bogearra	softw		ogábh
+# FARF/FRTF
+sort		cuir_in_ord		sórtáil		sort		ch?u.*in.*ord
+sort		rangaigh		sórtáil		sort		rang
+# FARF/FRTF
+space		achar			spás		spac(e|ing)	[^n]achai?r
+# FARF/FRTF
+spell_checker	dearfóir_litrithe	litreoir	spell		dh?earf
+spell_checker	seiceálaí_litrithe	litreoir	spell		sh?eiceál
+# FRTF
+splash_screen	scáileán_tosaithe	splancscáileán	splash		scáileái?n.th?os
+# SÓC email 10 Noll 2007
+standard_error	aschur_earráide_caighdeánach	gnáth-aschur_earráide	standard.error	ch?aighdeána
+standard_error	aschur_earráide_caighdeánach	gnáth-aschur_earráide	stderr	ch?aighdeána
+standard_input	ionchur_caighdeánach	gnáth-ionchur	standard.input	ch?aighdeána
+standard_input	ionchur_caighdeánach	gnáth-ionchur	stdin	ch?aighdeána
+standard_output	aschur_caighdeánach	gnáth-aschur	standard.output	ch?aighdeána
+standard_output	aschur_caighdeánach	gnáth-aschur	stdout	ch?aighdeána
+standard_view	amharc_caighdeánach	gnáthamharc	standard.view	amharc.caighd
+star		réalta			réiltín			star		réalta
+startup		ag_an_tosú		ag_am_tosaithe	start.?up	th?osú
+# FRTF has "stop"; not sure where this one came from
+# stop		stop			stad		stop		stop
+# FARF
+style_sheet	bileog_stíle		stílbhileog	style.?sheet	[^l]bh?ileoi?g
+# FRTF
+stylus		bior			stíleas		stylus		bh?ior
+stylus		snáthaid		stíleas		stylus		sh?náth
+# FRTF
+subscribe	síntiús		liostáil	subscri		sh?íntiús
+subscribe	suibscríobh		liostáil	subscri		uibscr
+submit		cuir_faoi_bhráid/bhreith	seol		submit		ch?uir.*faoi.bh
+submit		cuir_isteach	seol		submit		ch?uir.*isteach
+# openoffice discussion
+suspend		croch			cuir_ar_fionraí	suspen		ch?roch
+suspend		stad			cuir_ar_fionraí	suspen		ch?roch
+# FRTF/FARF "swap file", vim too
+swap		malartaigh		babhtáil	swap		mh?alai?rt
+# FARF/FRTF
+symbol		comhartha		siombail	symbol		ch?omhart
+symbol		samhaltán		siombail	symbol		sh?amhaltán
+tab		clib			táb,_cluaisín	tab		ch?lib
+# table border= is possible in HTML so require no "e" following bord!
+table		bord			tábla		table		bh?oi?rd[^e]
+# FRTF
+tag		marcáil			clibeáil	tag		mh?arc
+# FRTF
+task_bar	barra_tascanna		tascbharra	task.?bar	[^c]bh?arra
+# FRTF
+template	creatchomhad		teimpléad	template	ch?reatchomh
+# FRTF
+tile		leac(án)		tíl		til(e|ing)	leac
+tile		scláta			tíl		til(e|ing)	scláta
+tile		slinn			tíl		til(e|ing)	sh?linn
+timer		amadóir			uaineadóir	timer	amadói?r
+timeout		seal_fanachta	teorainn_ama	time.?out	fanacht
+# two possible senses
+token		comhartha		ceadchomhartha,teaghrán_comhartha token	[^d]ch?omhartha[^ci]
+trailing	sraoilleach		chun_deiridh	trailing	sh?raoil
+# MSG has iontaoibh
+trust		muinín			iontaoibh	trust		mh?uinín
+# FARF/FRTF
+type		sórt			cineál		type		sh?órt
+type		saghas			cineál		type		sh?aghas
+type		tíopa			cineál		type		th?íopa
+# FARF/FRTF
+type		clóbhuail			clóscríobh		type		lóbhua
+#  see could_not
+unable		níorbh_fhéidir		ní_féidir	unable		níorbh.fhéidir
+# FRTF (FARF has "scaoil")
+undo		cuir_ar_neamhní		cealaigh	undo		neamhní
+undo		scaoil			cealaigh	undo		scaoil
+undo		leasaigh		cealaigh	undo		leas
+# FARF/FRTF
+universal	uilechoiteann		uilíoch		univers		uilecho
+universal	comhchoiteann		uilíoch		univers		ch?omhcho
+#  FARF (FRTF has neamhaithnid)
+unknown		neamhaitheanta		anaithnid	unknown		neamhaithe
+unknown		neamhaithnid		anaithnid	unknown		neamhaithn
+unknown		aineoil			anaithnid	unknown		aineoil
+unsubscribe	síntiús		díliostáil	unsubscrib	sh?íntiú
+# FARF/FRTF
+update		uasdátú			nuashonrú	updat		uasd
+update		uasghrádú		nuashonrú	updat		uasghr
+update		coigeartaigh		nuashonraigh	updat		ch?oigeart
+# FARF/FRTF
+upgrade		nuashonrú		uasghrádú	upgrad		nuashon
+upgrade		athchóirigh		uasghrádú	upgrad		athchóir
+# lódáil, cóipeáil forms under load
+upload	suas-luchtaigh		uasluchtaigh	upload	sh?uas-?lucht
+upload	thuas-luchtaigh		uasluchtaigh	upload	thuas-?lucht
+uppercase	cás mór			cás uachtair	upper.*case	ch?ás.mór
+uppercase	cás uachtarach		cás uachtair	upper.*case	ch?ás.uachtar
+uppercase	ceannlitir		cás uachtair	upper.*case	eannlit
+# FE94, etc.
+velocity	luas		treoluas	velocit		[^o]luai?s
+# FRTF
+verify		bailíochtaigh	fíoraigh	verif		bh?ailíocht
+#verify		deimhnigh		fíoraigh	verif		dh?eimhn
+verify		promh			fíoraigh	verif		ph?romh
+video_chat	comhrá físe	físchomhrá	chat	ch?omhrá(ite)?.fís
+# no FARF/FRTF, MSG has amharc-chlár; amharcán is Séamus's
+viewer		breathnóir		amharcán	viewer		bh?reathn
+viewer		féachadóir		amharcán	viewer		fh?éachad
+viewer		amharc-chlár		amharcán	viewer		amharc-ch
+virus		feithid			víreas		virus		fh?eith
+# Mozilla-L discussion; also "superceded" in focal.ie
+volume		láine			airde		volume		láine
+# Mozilla-L discussion
+waiting		fanacht			feitheamh	wait		fh?anacht
+# FARF/FRTF
+wallpaper	páipéar balla		cúlbhrat	wallpaper	ph?áipé
+# FARF/FRTF
+web		líon			gréasán		web		[^a-z]lío?n
+# FARF/FRTF
+wildcard	slonn(_ionadaíochta)	saoróg		wild.?card	sh?loi?nn
+wizard		asarlaí			treoraí		wizard		asarla
+wizard		draíodóir		treoraí		wizard		dh?raíodó
+wizard		draoi		treoraí		wizard		dh?raoi

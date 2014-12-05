@@ -1,0 +1,25 @@
+
+These are some of the scripts I use to perform automatic QA checks 
+on our Irish language software translations.  They are designed
+to work on PO files.  
+
+These were never meant for other humans' eyes, so forgive the
+terrible coding style throughout.  I'm putting them here at the urging
+of Mozilla's l10n drivers in case there are some ideas that could
+be mined for more general QA checks across a number of locales.
+
+I think they should run without requiring many changes on any standard
+Linux system.  You may need to install a few Perl modules, e.g.
+Locale::PO, HOP::Lexer, and Lingua::GA::Gramadoir.
+
+There is a hard-coded path in several scripts pointing to the directory
+where all of this is cloned on my machine (currently /home/kps/seal/l10n-qa) -
+you'll want to change those paths.   At some point I may add a makefile
+with install targets, etc.  Assuming you set all this up, the scripts
+can be run as follows:
+
+$ bash cpo.sh a.po b.po ...
+
+I added some English comments to the cpo.sh script enumerating
+and briefly describing the various checks that happen.  The messages
+output to users are usually in Irish.
