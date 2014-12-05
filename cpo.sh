@@ -40,7 +40,7 @@ do
 		echo; echo "Aistriúcháin fhíorchosúla á lorg..."
 		cat "${x}" | dekde > $TMPFILE
 		msguniq --repeated $TMPFILE > $TMPFILE2
-		msgattrib --only-fuzzy "$TMPFILE2"
+		msgattrib --only-fuzzy "$TMPFILE2" | egrep -v '#-#-#-#'
 		# look for use of deprecated terms
 		echo; echo "Téarmaí lochtacha á lorg..."
 		msgcat -t utf-8 "${x}" | sed '1,/^$/d' > $TMPFILE

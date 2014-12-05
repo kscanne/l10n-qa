@@ -1,0 +1,97 @@
+test.po á sheiceáil le msgfmt...
+test.po: 12 translated messages.
+
+Drochaicearraí á lorg...
+msgstr "D~íchuir"
+msgstr "T&éigh"
+msgstr "Sábháil&"
+
+Aistriúcháin fhíorchosúla á lorg...
+msgid ""
+msgstr ""
+"Project-Id-Version: test\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-04-11 23:40+0200\n"
+"PO-Revision-Date: 2008-05-11 23:40+0200\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, fuzzy
+msgid "eject"
+msgstr ""
+"díchuir\n"
+"cuir amach"
+
+#, fuzzy
+msgid "save"
+msgstr ""
+"sábháil\n"
+"cuir i dtaisce"
+
+Téarmaí lochtacha á lorg...
+Aimsíodh téarma i léig "cuir i dtaisce" mar aistriúchán ar "save"
+	msgid="Sa&ve"
+	msgstr="&Cuir i dtaisce"
+	Ba chóir duit "sábháil" a úsáid ina ionad
+
+Aimsíodh téarma i léig "nasc" mar aistriúchán ar "connect"
+	msgid="Connect"
+	msgstr="Nasc"
+	Ba chóir duit "ceangail" a úsáid ina ionad
+
+Aimsíodh téarma déchiallach "Directory" i msgid
+	msgid="Directory"
+	msgstr="Eolaire"
+	Míniú: (files/contacts)"
+
+Aimsíodh téarma déchiallach "Player" i msgid
+	msgid="Player"
+	msgstr="Seinnteoir"
+	Míniú: (person in game/device)"
+
+
+Téarmaí gan aistriú á seiceáil...
+
+
+Aicearra & ar iarraidh ó msgstr
+Msgid=Go
+Msgstr=T&éigh
+
+
+
+
+Aicearra & ar iarraidh ó msgstr
+Msgid=Save
+Msgstr=Sábháil&
+
+
+
+
+Ní hionann líon an chomhartha E sa msgid agus sa msgstr
+Msgid=E~ject
+Msgstr=Cuir ~amach
+Cóipeáladh an comhartha seo le dóchúlacht 0.979881656804734 in aistriúcháin roimhe seo
+
+
+
+
+Ní hionann líon an chomhartha ASCII sa msgid agus sa msgstr
+Msgid=ASCII
+Msgstr=Tacar Carachtar Meiriceánach
+Cóipeáladh an comhartha seo le dóchúlacht 0.928571428571429 in aistriúcháin roimhe seo
+
+
+
+nbsp's á lorg...
+msgstr "Spás sa Bhreis"
+
+An Gramadóir...
+19: [1;31mAn Fuinneog[0m .
+Séimhiú ar iarraidh
+
+21: [1;31mMilitrithe[0m 
+Focal anaithnid
+
