@@ -8,3 +8,6 @@ copied.txt:
 test:
 	bash cpo.sh test.po > temptest.txt
 	diff -u test.txt temptest.txt
+
+clean:
+	rm -f temptest.txt
