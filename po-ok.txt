@@ -329,6 +329,7 @@ Jay
 Jeeves
 Jersey
 Jim
+Jocco
 Jong-Il
 Josef
 Josh
@@ -663,6 +664,7 @@ Rio
 Rivera
 Robbins
 Roberts
+Rocco
 Roessler
 Roland
 Rosh
@@ -774,6 +776,7 @@ Tomé
 Torah
 Torbjorn
 Triple-DES
+Trumbo
 Tu
 Tubman
 Turks
@@ -1186,6 +1189,7 @@ elif
 else
 elseif
 empty
+enchiladas
 encod
 encoder
 end-delete
@@ -2517,6 +2521,8 @@ table
 tables-file
 tabs
 tabsize
+taco
+tacos
 tag
 tagged-paragraph
 tail
